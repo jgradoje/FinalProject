@@ -1,6 +1,6 @@
-Frames: 1000
+frames: 1000
 speed: 10 fps
-1
+3
 
 Circle
 r: 10
@@ -8,27 +8,31 @@ x: 50
 y: 50
 color: 255, 0, 0
 effect
-jump
-start: 50
-x: 30
-y: 30
+Show
+start: 10
 effect
-show
-start: 15
+Hide
+start: 120
 
-Rectangle
+Rect
 length: 100
 width: 50
-x: 300
-y: 300
+x: 25
+y: 25
 border: 5
-color: 0, 0, 255
-bordercolor: 0, 255, 0
 effect
-changecolor
-frame: 80
-color: 255, 0, 0
+Show
+start: 15
 effect
-hide
-frame: 100
+Jump
+start: 50
+x: 100
+y: 100
+
+Line
+startx: 50
+starty: 50
+endX: 90
+endY: 90
+border: 5
 
